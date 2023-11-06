@@ -1,0 +1,6 @@
+环境配置：python3.10.11 + pycharm
+所需安装包：requests, lxml, bs4, pdfplumber, selenium, time, re, pandas, pdfkit, pyperclip, glob, os, docx, webdriver_manager, pinyin, wkhtmltopdf
+
+文件说明：
+main.py是主要运行文件，可以指定搜索关键词和搜索页数，并且按顺序对每个城市执行三个步骤：获取网页网址链接、筛选网页内容、根据网页内容打分。
+utils.py是函数库，用来给main.py提供执行三个步骤所需的所有函数。
